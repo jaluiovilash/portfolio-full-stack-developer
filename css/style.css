@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 25px;
+    font-size: 2.5rem;
+}
+
+/* header */
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 40px;
+
+}
+
+.name a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: monospace;
+}
+
+.logo img {
+    width: 35px;
+    margin-right: 15px;
+}
+
+/* intro section/ hero section  */
+
+.developer {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.deve-img img {
+    margin-left: 45px;
+    height: 300px;
+    width: auto;
+}
+
+.intro {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+#position {
+    font-size: 2rem;
+}
+
+#name {
+    color: wheat;
+}
+
+.descp p {
+    letter-spacing: 0.8px;
+    font-size: 1.3rem;
+}
+
+.btn {
+    background-color: black;
+    width: 140px;
+    height: 42px;
+    margin: 20px;
+    cursor: pointer;
+    border: 1px solid wheat;
+    transition-duration: 0.4s;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+}
+
+.btn:hover {
+    background-color: wheat;
+    color: black;
+}
+
+
+/* techonlogies i know - skills */
+
+.techonlogies {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px;
+}
+
+.skills {
+    background-color: #1a1a1a;
+    border-radius: 15px;
+    margin: 0 30px;
+    padding: 30px;
+    width: 200px;
+}
+
+.skills:hover {
+    background-color: #303030;
+}
+
+.skills img {
+    width: 45px;
+    height: auto;
+    margin-bottom: 90px;
+}
+
+.skills h2 {
+    margin-bottom: 50px;
+    font-size: 2rem;
+}
+
+.skills p {
+    font-size: 1rem;
+}
+
+/* my beautiful works */
+
+#projects {
+    margin: 45px 0 5px 0;
+    font-size: 3rem;
+}
+
+/* layer1 */
+
+.photo-gallery {
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin-bottom: 80px;
+}
+
+.photo-gallery img {
+    width: 1200px;
+    height: 500px;
+    object-fit: cover;
+    margin: 0 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.work {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.work p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+/* layer2 */
+
+.layer2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.work-ui p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.work-ui img {
+    width: 700px;
+    height: auto;
+}
+
+.github {
+    margin-bottom: 80px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+
+/* contact me form */
+
+.contact-me {
+    background-color: #191919;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left {
+    padding: 20px 30px;
+    margin: 50px;
+}
+
+.ask {
+    margin-top: 0;
+    margin-bottom: 300px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.contact-me img {
+    margin-right: 10px;
+    width: auto;
+    height: 16px;
+}
+
+.me {
+    display: flex;
+    margin: 23px 23px 23px 0;
+    text-decoration: underline;
+}
+
+.container {
+    margin: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-group input[type="file"] {
+    border: none;
+    padding: 0;
+}
+
+.form-group input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+
+
+/* FAQS section */
+
+.faqs {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.faq-icon {
+    margin: 80px 0 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq-icon img {
+    width: 90px;
+    height: auto;
+}
+
+.faq-fullform {
+    margin-bottom: 23px;
+    box-shadow: #fff;
+}
+
+.faq-fullform h1,
+.faq-fullform p {
+    margin: 0;
+    font-family: monospace;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid white;
+    padding: 30px 25px;
+    border-radius: 10px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: #000000;
+    font-size: 1rem;
+}
+
+.faq-question {
+    padding: 15px 20px;
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+    border-bottom: 1px solid #cccccc68;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.faq-answer {
+    padding: 10px 20px;
+    display: none;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+
+/* footer section */
+
+footer {
+    background-color: #100f0f;
+    padding: 10px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#name-footer {
+    font-size: 1.5rem;
+    margin: 20px 0 20px 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+}
+
+.social-links a {
+    display: block;
+    height: 40px;
+    width: 40px;
+    margin: 20px 10px;
+    border-radius: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    background: wheat;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.social-links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background: #f4fff4;
+    z-index: -1;
+}
+
+.social-links a:hover::after {
+    height: 100%;
+}
+
+.rightsfooter {
+    text-align: center;
+    color: wheat;
+    padding: 12px 0;
+}
