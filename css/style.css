@@ -273,9 +273,11 @@ h1 {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 3px;
-
 }
 
+#name {
+    color: black;
+}
 
 /* FAQS section */
 
