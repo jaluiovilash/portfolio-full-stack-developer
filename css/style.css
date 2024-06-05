@@ -7,7 +7,9 @@
 }
 
 body {
-    background-color: black;
+    /* background-color: black; */
+    /* background: linear-gradient(90deg, rgba(38, 38, 25, 1) 0%, rgba(0, 0, 0, 1) 100%); */
+    background: linear-gradient(90deg, rgba(38, 38, 25, 1) 0%, rgba(0, 0, 0, 1) 100%);
     color: white;
     font-family: monospace;
 }
@@ -354,7 +356,6 @@ h1 {
     letter-spacing: 1px;
     text-align: justify;
 }
-
 
 /* footer section */
 
