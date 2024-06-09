@@ -1,5 +1,14 @@
 console.log("Script is running");
 
+document.getElementById("btn-connect").addEventListener("click", function () {
+    let link = document.createElement("a");
+    link.href = "https://www.linkedin.com/in/jaluiovilash/";
+    link.target = "_blank";
+    document.body.appendChild(link);
+    link.click();
+});
+
+
 // form submission code - display
 document.getElementById("contactForm").addEventListener("submit", function (event) {
     event.preventDefault();

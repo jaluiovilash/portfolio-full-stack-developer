@@ -179,9 +179,11 @@ h1 {
     margin-bottom: 30px;
 }
 
-/* layer2 */
+/* layer2 - photo gallery*/
+
 
 .layer2 {
+    background: black;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -197,6 +199,8 @@ h1 {
     width: 700px;
     height: auto;
 }
+
+/* github button */
 
 .github {
     margin-bottom: 80px;
